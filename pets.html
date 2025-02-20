@@ -18,6 +18,17 @@
       max-width: 500px;
       height: auto;
     }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      }
+    thead {
+      background-color: #f8f9fa;
+      }
+    tbody tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
   </style>
 
 </head>
@@ -60,6 +71,59 @@
 <p>For me, all of them brake at the same time and they all collapse onto the first letter because
   theres not enough room to hold all of it on the screen at once.
 </p>
+
+<div class="container mt-4">
+  <table class="table">
+    <caption>pet info</caption>
+    <thead>
+      <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">Pet</th>
+        <th scope="col">River</th>
+        <th scope="col">City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>P</td>
+        <td>Possum</td>
+        <td>Potomac</td>
+        <td>Paris</td>
+      </tr>
+      <tr>
+        <td>I</td>
+        <td>Iguana</td>
+        <td>Indus</td>
+        <td>Istanbul</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>Ant</td>
+        <td>Amazons</td>
+        <td>Amsterdam</td>
+      </tr>
+      <tr>
+        <td>T</td>
+        <td>Tabby Cat</td>
+        <td>Tigris</td>
+        <td>Tokyo</td>
+      </tr>
+      <tr>
+        <td>T</td>
+        <td>Tiger</td>
+        <td>Thames</td>
+        <td>Toronto</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>Aardvark</td>
+        <td>Arno</td>
+        <td>Austin</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 </body>
 </html>
